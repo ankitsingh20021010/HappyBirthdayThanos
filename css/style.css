@@ -18,6 +18,18 @@ body {
 #card, #card-front, #card-inside {
   height: 580px;
 }
+.img{
+    width:100%;
+    height:400px;
+    position:relative;
+    overflow:hidden;
+}
+
+.img video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
 
 .wrap {
   padding: 1.5em 2.5em;
